@@ -18,7 +18,7 @@ const createAdmin = async (req, res) => {
 
 const getAllAdmins = async (req, res) => {
   try {
-    const admins = await Admin.find();
+    const admins = await Admin.find().select("-password");
     res.status(200).json(admins);
   } catch (error) {
     res.status(500).json({ message: error.message });
