@@ -2,13 +2,26 @@
   "swagger": "2.0",
   "info": {
     "version": "1.0.0",
-    "title": "REST API",
-    "description": ""
+    "title": "Conexão Cultural",
+    "description": "A API Conexão Cultural é uma plataforma para conectar jovens a atividades culturais. Permite o registro de usuários, pesquisa e inscrição em atividades e eventos, além do gerenciamento eficiente desses eventos por administradores.'"
   },
-  "host": "localhost:3000",
+  "host": "conexao-cultural.onrender.com",
   "basePath": "/",
-  "schemes": [
-    "http"
+  "schemes": ["https", "http"],
+  "securityDefinitions": {
+    "Bearer": {
+      "type": "apiKey",
+      "in": "header",
+      "name": "Authorization",
+      "description": "Enter a valid token to test the requests below."
+    }
+  },
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "security": [
+    {
+      "Bearer": []
+    }
   ],
   "paths": {
     "/api/users/all": {
