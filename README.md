@@ -27,8 +27,6 @@ O objetivo do Conexão Cultural é conectar jovens a eventos e atividades cultur
 
 - Inscrição em atividades: Jovens podem procurar e se inscrever em atividades de seu interesse.
 
-- Gerenciamento de inscrições: Os administradores podem revisar e confirmar inscrições, além de gerenciar listas de espera.
-
 - Cadastro de eventos culturais: Os administradores podem inserir novos eventos culturais, fornecendo informações como data, local, descrição e se os usuários podem se inscrever.
 
 - Login de administradores: Administradores podem realizar login na plataforma para acessar funcionalidades administrativas.
