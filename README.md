@@ -122,4 +122,4 @@ $ npm start
 
 
 #### Agradecimento 
-- Gostaria de expressar minha gratidão à equipe do curso e aos meus colegas de turma. A orientação valiosa da equipe e o apoio contínuo das colegas foram muito importantes para a minha jornada de aprendizado.
+- Gostaria de expressar minha gratidão à equipe do curso e as minhas colegas de turma. A orientação valiosa da equipe e o apoio contínuo das colegas foram muito importantes para a minha jornada de aprendizado.
